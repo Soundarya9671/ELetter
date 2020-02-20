@@ -1,15 +1,13 @@
 package com.tyss.eletter.exitletter;
 
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.tyss.eletter.genericlibrary.FileLib;
 import com.tyss.eletter.genericlibrary.Utility;
 
@@ -21,16 +19,15 @@ public class EditExitLetter {
 
 		System.setProperty("webdriver.chrome.driver", "./driverExecutables/chromedriver.exe");
 	}
-
+	static Logger logger = Logger.getLogger(EditExitLetter.class.getName());
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		WebDriverWait wait = new WebDriverWait(driver, 20);
 		driver.get(fib.getPropertyKey("url"));
 		String title = driver.getTitle();
 		if (title.contains("React")) {
-			System.out.println("Home page is displayed");
+			logger.info("Home page is displayed");
 		} else {
-			System.out.println("Home page is not displayed");
+			logger.info("Home page is not displayed");
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -43,12 +40,13 @@ public class EditExitLetter {
 		/* To click on Login */
 		driver.findElement(By.xpath("//button[@type='submit']")).submit();
 
+		/*To click on Exit Letter*/
 		driver.findElement(By.linkText("Exit Letter")).click();
 		String exit = driver.findElement(By.xpath("//h3[text()='Exit Letter']")).getText();
 		if (exit.contains("Exit"))
-			System.out.println("Exit letter page is displayed");
+			logger.info("Exit letter form is displayed");
 		else
-			System.out.println("Exit letter page is not displayed");
+			logger.info("Exit letter form is not displayed");
 
 		/* To select Ms from Salutation dropdown */
 		WebElement salutation = driver.findElement(By.id("salutation"));
@@ -63,7 +61,7 @@ public class EditExitLetter {
 		/* To enter CompanyLocation */
 		driver.findElement(By.id("companyLocation")).sendKeys(fib.getExcelData("Exitletter", 1, 3));
 
-		/* To enter Join date */
+		/* To enter Joined date */
 		String joinD = fib.getExcelData("Exitletter", 1, 9);
 		WebElement joindate = driver.findElement(By.id("joiningDate"));
 		joindate.sendKeys(joinD);
@@ -99,10 +97,10 @@ public class EditExitLetter {
 		String exitLetter = driver.findElement(By.xpath("//u[text()='EXIT AGREEMENT']")).getText();
 
 		if (exitLetter.contains("EXIT"))
-			System.out.println("Exit Agreement page is displayed");
+			logger.info("Exit Agreement page is displayed");
 
 		else
-			System.out.println("Exit Agreement page is not displayed");
+			logger.info("Exit Agreement page is not displayed");
 		
         /*To click on Edit button*/
         driver.findElement(By.xpath("//button[text()='Edit']")).click();
@@ -117,9 +115,9 @@ public class EditExitLetter {
         String editedName = driver.findElement(By.xpath("//strong[text()='Chandana']")).getText();
         
         if(editedName.contains("Chandana"))
-        	System.out.println("Modified details is displayed--> Test is PASS");
+        	logger.info("Modified details is displayed--> Test is PASS");
         else
-        	System.out.println("Modified details is not displayed-->Test is FAIL");
+        	logger.info("Modified details is not displayed-->Test is FAIL");
 	}
 
 }

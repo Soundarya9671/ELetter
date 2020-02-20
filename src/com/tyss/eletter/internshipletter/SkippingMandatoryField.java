@@ -1,14 +1,12 @@
 package com.tyss.eletter.internshipletter;
 
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
+import java.util.logging.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.tyss.eletter.genericlibrary.FileLib;
 import com.tyss.eletter.genericlibrary.Utility;
 
@@ -21,17 +19,16 @@ public class SkippingMandatoryField {
 
 		System.setProperty("webdriver.chrome.driver", "./driverExecutables/chromedriver.exe");
 	}
-
+	static Logger logger = Logger.getLogger(SkippingMandatoryField.class.getName());
 	public static void main(String[] args) throws InterruptedException {
-		Date d = new Date();
 		WebDriver driver = new ChromeDriver();
 		driver.get(fib.getPropertyKey("url"));
 		String title = driver.getTitle();
 		if(title.contains("React")) {
-			System.out.println("Home page is displayed");
+			logger.info("Home page is displayed");
 		}
 		else {
-			System.out.println("Home page is not displayed");
+			logger.info("Home page is not displayed");
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -48,9 +45,9 @@ public class SkippingMandatoryField {
 		driver.findElement(By.linkText("Internship Letter")).click();
 		String intern = driver.findElement(By.xpath("//h3[text()='Intership Letter']")).getText();
 		if(intern.contains("Intership")) 
-			System.out.println("Internship Letter page is displayed");
+			logger.info("Internship Letter page is displayed");
 		else 
-			System.out.println("Internship Letter page is not displayed");
+			logger.info("Internship Letter page is not displayed");
 		
 		/*To select Mr from Salutation dropdown*/
 		WebElement salutation = driver.findElement(By.id("salutation"));
@@ -75,7 +72,7 @@ public class SkippingMandatoryField {
 		}
 		catch(Exception e) {
 			
-			System.out.println("Cannot generate Internship Letter by skipping Internship start date --> Test is PASS");
+			logger.info("Cannot generate Internship Letter by skipping Internship start date --> Test is PASS");
 		}
 	
 	}

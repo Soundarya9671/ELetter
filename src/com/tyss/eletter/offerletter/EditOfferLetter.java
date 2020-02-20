@@ -1,14 +1,12 @@
 package com.tyss.eletter.offerletter;
 
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
+import java.util.logging.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.tyss.eletter.genericlibrary.FileLib;
 import com.tyss.eletter.genericlibrary.Utility;
 
@@ -20,17 +18,16 @@ public class EditOfferLetter {
 
 		System.setProperty("webdriver.chrome.driver", "./driverExecutables/chromedriver.exe");
 	}
-
+	static Logger logger = Logger.getLogger(EditOfferLetter.class.getName());
 	public static void main(String[] args) throws InterruptedException {
-		Date d = new Date();
 		WebDriver driver = new ChromeDriver();
 		driver.get(fib.getPropertyKey("url"));
 		String title = driver.getTitle();
 		if(title.contains("React")) {
-			System.out.println("Home page is displayed");
+			logger.info("Home page is displayed");
 		}
 		else {
-			System.out.println("Home page is not displayed");
+			logger.info("Home page is not displayed");
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -47,9 +44,9 @@ public class EditOfferLetter {
 		driver.findElement(By.linkText("Offer Letter")).click();
 		String offer = driver.findElement(By.xpath("//h3[text()='Offer Letter']")).getText();
 		if(offer.contains("Offer")) 
-			System.out.println("Offer letter page is displayed");
+			logger.info("Offer letter form is displayed");
 		else 
-			System.out.println("Offer letter page is not displayed");
+			logger.info("Offer letter form is not displayed");
 		
 		/*To select Ms from Salutation dropdown*/
 		WebElement salutation = driver.findElement(By.id("salutation"));
@@ -61,16 +58,16 @@ public class EditOfferLetter {
 		/*To enter Father Name*/
 		driver.findElement(By.id("fatherName")).sendKeys(fib.getExcelData("Offerletter", 1, 2));
 		
-		/*To enter age*/
+		/*To enter Age*/
 		driver.findElement(By.id("age")).sendKeys(fib.getExcelData("Offerletter", 1, 3));
 		
-		/*To enter designation*/
+		/*To enter Designation*/
 		driver.findElement(By.id("designation")).sendKeys(fib.getExcelData("Offerletter", 1, 4));
 		
 		/*To enter CompanyLocation*/
 		driver.findElement(By.id("companyLocation")).sendKeys(fib.getExcelData("Offerletter", 1, 5));
 		
-		/*To enter salary*/
+		/*To enter Salary*/
 		WebElement salary = driver.findElement(By.id("salary"));
 		salary.sendKeys(Keys.chord(Keys.CONTROL, "a"), fib.getExcelData("Offerletter", 1, 6));
 		
@@ -96,10 +93,10 @@ public class EditOfferLetter {
 	        
         if(editedName.contains("Chandana"))
         	
-        	System.out.println("Modified details is displayed--> Test is PASS");
+        	logger.info("Modified details is displayed--> Test is PASS");
         else
         	
-        	System.out.println("Modified details is not displayed-->Test is FAIL");
+        	logger.info("Modified details is not displayed-->Test is FAIL");
 		
 	}
 }
