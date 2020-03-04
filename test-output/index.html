@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\CBT\eclipse-workspace\ELetter\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.BDPolicyLetter" hash-for-method="editBDPolicyLetterTest">editBDPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ConsultantOfferLetter" hash-for-method="editConsultantOfferLetterTest">editConsultantOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.DeliveryPolicyLetter" hash-for-method="editDeliveryPolicyLetterTest">editDeliveryPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ExitLetter" hash-for-method="editExitLetterTest">editExitLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.HRPolicyLetter" hash-for-method="editHRPolicyLetterTest">editHRPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ITPolicyLetter" hash-for-method="editITPolicyLetterTest">editITPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.InternshipLetter" hash-for-method="editInternshipLetterTest">editInternshipLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.OfferLetter" hash-for-method="editOfferLetterTest">editOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ProjectPolicyLetter" hash-for-method="editProjectPolicyLetterTest">editProjectPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.SalaryRevisionLetter" hash-for-method="editSalaryRevisionLetterTest">editSalaryRevisionLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.BDPolicyLetter" hash-for-method="previewBDPolicyLetterTest">previewBDPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ConsultantOfferLetter" hash-for-method="previewConsultantOfferLetterTest">previewConsultantOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.DeliveryPolicyLetter" hash-for-method="previewDeliveryPolicyLetterTest">previewDeliveryPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ExitLetter" hash-for-method="previewExitLetterTest">previewExitLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.HRPolicyLetter" hash-for-method="previewHRPolicyLetterTest">previewHRPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ITPolicyLetter" hash-for-method="previewITPolicyLetterTest">previewITPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.InternshipLetter" hash-for-method="previewInternshipLetterTest">previewInternshipLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.OfferLetter" hash-for-method="previewOfferLetterTest">previewOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ProjectPolicyLetter" hash-for-method="previewProjectPolicyLetterTest">previewProjectPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.SalaryRevisionLetter" hash-for-method="previewSalaryRevisionLetterTest">previewSalaryRevisionLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.BDPolicyLetter" hash-for-method="sendMailBDPolicyLetterTest">sendMailBDPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ConsultantOfferLetter" hash-for-method="sendMailConsultantOfferLetterTest">sendMailConsultantOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.DeliveryPolicyLetter" hash-for-method="sendMailDeliveryPolicyLetterTest">sendMailDeliveryPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ExitLetter" hash-for-method="sendMailExitLetterTest">sendMailExitLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.HRPolicyLetter" hash-for-method="sendMailHRPolicyLetterTest">sendMailHRPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ITPolicyLetter" hash-for-method="sendMailITPolicyLetterTest">sendMailITPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.OfferLetter" hash-for-method="sendMailOfferLetterTest">sendMailOfferLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ProjectPolicyLetter" hash-for-method="sendMailProjectPolicyLetterTest">sendMailProjectPolicyLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.SalaryRevisionLetter" hash-for-method="sendMailSalaryRevisionLetterTest">sendMailSalaryRevisionLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.InternshipLetter" hash-for-method="sendmailInternshipLetterTest">sendmailInternshipLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.OfferLetter" hash-for-method="skippingMandatoryField">skippingMandatoryField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ConsultantOfferLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ExitLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.InternshipLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.SalaryRevisionLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.BDPolicyLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ITPolicyLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.HRPolicyLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.ProjectPolicyLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tyss.eletter.testscripts.DeliveryPolicyLetter" hash-for-method="skippingMandatoryFieldTest">skippingMandatoryFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.ITPolicyLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editITPolicyLetterTest">
+                  </a> <!-- editITPolicyLetterTest -->
+                  <span class="method-name">editITPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewITPolicyLetterTest">
+                  </a> <!-- previewITPolicyLetterTest -->
+                  <span class="method-name">previewITPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailITPolicyLetterTest">
+                  </a> <!-- sendMailITPolicyLetterTest -->
+                  <span class="method-name">sendMailITPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.ConsultantOfferLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editConsultantOfferLetterTest">
+                  </a> <!-- editConsultantOfferLetterTest -->
+                  <span class="method-name">editConsultantOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewConsultantOfferLetterTest">
+                  </a> <!-- previewConsultantOfferLetterTest -->
+                  <span class="method-name">previewConsultantOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailConsultantOfferLetterTest">
+                  </a> <!-- sendMailConsultantOfferLetterTest -->
+                  <span class="method-name">sendMailConsultantOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.ProjectPolicyLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProjectPolicyLetterTest">
+                  </a> <!-- editProjectPolicyLetterTest -->
+                  <span class="method-name">editProjectPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewProjectPolicyLetterTest">
+                  </a> <!-- previewProjectPolicyLetterTest -->
+                  <span class="method-name">previewProjectPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailProjectPolicyLetterTest">
+                  </a> <!-- sendMailProjectPolicyLetterTest -->
+                  <span class="method-name">sendMailProjectPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.HRPolicyLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editHRPolicyLetterTest">
+                  </a> <!-- editHRPolicyLetterTest -->
+                  <span class="method-name">editHRPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewHRPolicyLetterTest">
+                  </a> <!-- previewHRPolicyLetterTest -->
+                  <span class="method-name">previewHRPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailHRPolicyLetterTest">
+                  </a> <!-- sendMailHRPolicyLetterTest -->
+                  <span class="method-name">sendMailHRPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.DeliveryPolicyLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editDeliveryPolicyLetterTest">
+                  </a> <!-- editDeliveryPolicyLetterTest -->
+                  <span class="method-name">editDeliveryPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewDeliveryPolicyLetterTest">
+                  </a> <!-- previewDeliveryPolicyLetterTest -->
+                  <span class="method-name">previewDeliveryPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailDeliveryPolicyLetterTest">
+                  </a> <!-- sendMailDeliveryPolicyLetterTest -->
+                  <span class="method-name">sendMailDeliveryPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.ExitLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editExitLetterTest">
+                  </a> <!-- editExitLetterTest -->
+                  <span class="method-name">editExitLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewExitLetterTest">
+                  </a> <!-- previewExitLetterTest -->
+                  <span class="method-name">previewExitLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailExitLetterTest">
+                  </a> <!-- sendMailExitLetterTest -->
+                  <span class="method-name">sendMailExitLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.OfferLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editOfferLetterTest">
+                  </a> <!-- editOfferLetterTest -->
+                  <span class="method-name">editOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewOfferLetterTest">
+                  </a> <!-- previewOfferLetterTest -->
+                  <span class="method-name">previewOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailOfferLetterTest">
+                  </a> <!-- sendMailOfferLetterTest -->
+                  <span class="method-name">sendMailOfferLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryField">
+                  </a> <!-- skippingMandatoryField -->
+                  <span class="method-name">skippingMandatoryField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.InternshipLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editInternshipLetterTest">
+                  </a> <!-- editInternshipLetterTest -->
+                  <span class="method-name">editInternshipLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewInternshipLetterTest">
+                  </a> <!-- previewInternshipLetterTest -->
+                  <span class="method-name">previewInternshipLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendmailInternshipLetterTest">
+                  </a> <!-- sendmailInternshipLetterTest -->
+                  <span class="method-name">sendmailInternshipLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.SalaryRevisionLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editSalaryRevisionLetterTest">
+                  </a> <!-- editSalaryRevisionLetterTest -->
+                  <span class="method-name">editSalaryRevisionLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewSalaryRevisionLetterTest">
+                  </a> <!-- previewSalaryRevisionLetterTest -->
+                  <span class="method-name">previewSalaryRevisionLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailSalaryRevisionLetterTest">
+                  </a> <!-- sendMailSalaryRevisionLetterTest -->
+                  <span class="method-name">sendMailSalaryRevisionLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tyss.eletter.testscripts.BDPolicyLetter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editBDPolicyLetterTest">
+                  </a> <!-- editBDPolicyLetterTest -->
+                  <span class="method-name">editBDPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewBDPolicyLetterTest">
+                  </a> <!-- previewBDPolicyLetterTest -->
+                  <span class="method-name">previewBDPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMailBDPolicyLetterTest">
+                  </a> <!-- sendMailBDPolicyLetterTest -->
+                  <span class="method-name">sendMailBDPolicyLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingMandatoryFieldTest">
+                  </a> <!-- skippingMandatoryFieldTest -->
+                  <span class="method-name">skippingMandatoryFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CBT\eclipse-workspace\ELetter\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.InternshipLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.ProjectPolicyLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.SalaryRevisionLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.BDPolicyLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.ITPolicyLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.OfferLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.ConsultantOfferLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.ExitLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.DeliveryPolicyLetter&quot;/&gt;
+      &lt;class name=&quot;com.tyss.eletter.testscripts.HRPolicyLetter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'previewInternshipLetterTest')
+data.setCell(0, 2, 'com.tyss.eletter.testscripts.InternshipLetter')
+data.setCell(0, 3, 7691);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'previewBDPolicyLetterTest')
+data.setCell(1, 2, 'com.tyss.eletter.testscripts.BDPolicyLetter')
+data.setCell(1, 3, 6503);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'previewExitLetterTest')
+data.setCell(2, 2, 'com.tyss.eletter.testscripts.ExitLetter')
+data.setCell(2, 3, 6358);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'previewProjectPolicyLetterTest')
+data.setCell(3, 2, 'com.tyss.eletter.testscripts.ProjectPolicyLetter')
+data.setCell(3, 3, 6323);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'previewHRPolicyLetterTest')
+data.setCell(4, 2, 'com.tyss.eletter.testscripts.HRPolicyLetter')
+data.setCell(4, 3, 6207);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'previewDeliveryPolicyLetterTest')
+data.setCell(5, 2, 'com.tyss.eletter.testscripts.DeliveryPolicyLetter')
+data.setCell(5, 3, 6179);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sendmailInternshipLetterTest')
+data.setCell(6, 2, 'com.tyss.eletter.testscripts.InternshipLetter')
+data.setCell(6, 3, 6153);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'previewOfferLetterTest')
+data.setCell(7, 2, 'com.tyss.eletter.testscripts.OfferLetter')
+data.setCell(7, 3, 6034);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'previewSalaryRevisionLetterTest')
+data.setCell(8, 2, 'com.tyss.eletter.testscripts.SalaryRevisionLetter')
+data.setCell(8, 3, 5974);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'previewConsultantOfferLetterTest')
+data.setCell(9, 2, 'com.tyss.eletter.testscripts.ConsultantOfferLetter')
+data.setCell(9, 3, 5866);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'previewITPolicyLetterTest')
+data.setCell(10, 2, 'com.tyss.eletter.testscripts.ITPolicyLetter')
+data.setCell(10, 3, 5835);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sendMailBDPolicyLetterTest')
+data.setCell(11, 2, 'com.tyss.eletter.testscripts.BDPolicyLetter')
+data.setCell(11, 3, 5674);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sendMailITPolicyLetterTest')
+data.setCell(12, 2, 'com.tyss.eletter.testscripts.ITPolicyLetter')
+data.setCell(12, 3, 5485);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sendMailProjectPolicyLetterTest')
+data.setCell(13, 2, 'com.tyss.eletter.testscripts.ProjectPolicyLetter')
+data.setCell(13, 3, 5423);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sendMailHRPolicyLetterTest')
+data.setCell(14, 2, 'com.tyss.eletter.testscripts.HRPolicyLetter')
+data.setCell(14, 3, 5341);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'sendMailExitLetterTest')
+data.setCell(15, 2, 'com.tyss.eletter.testscripts.ExitLetter')
+data.setCell(15, 3, 5252);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sendMailOfferLetterTest')
+data.setCell(16, 2, 'com.tyss.eletter.testscripts.OfferLetter')
+data.setCell(16, 3, 5243);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'sendMailDeliveryPolicyLetterTest')
+data.setCell(17, 2, 'com.tyss.eletter.testscripts.DeliveryPolicyLetter')
+data.setCell(17, 3, 4987);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'sendMailConsultantOfferLetterTest')
+data.setCell(18, 2, 'com.tyss.eletter.testscripts.ConsultantOfferLetter')
+data.setCell(18, 3, 4937);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sendMailSalaryRevisionLetterTest')
+data.setCell(19, 2, 'com.tyss.eletter.testscripts.SalaryRevisionLetter')
+data.setCell(19, 3, 4931);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'editBDPolicyLetterTest')
+data.setCell(20, 2, 'com.tyss.eletter.testscripts.BDPolicyLetter')
+data.setCell(20, 3, 4115);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'editOfferLetterTest')
+data.setCell(21, 2, 'com.tyss.eletter.testscripts.OfferLetter')
+data.setCell(21, 3, 4031);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'editInternshipLetterTest')
+data.setCell(22, 2, 'com.tyss.eletter.testscripts.InternshipLetter')
+data.setCell(22, 3, 3928);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'editExitLetterTest')
+data.setCell(23, 2, 'com.tyss.eletter.testscripts.ExitLetter')
+data.setCell(23, 3, 3805);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'editDeliveryPolicyLetterTest')
+data.setCell(24, 2, 'com.tyss.eletter.testscripts.DeliveryPolicyLetter')
+data.setCell(24, 3, 3798);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'editConsultantOfferLetterTest')
+data.setCell(25, 2, 'com.tyss.eletter.testscripts.ConsultantOfferLetter')
+data.setCell(25, 3, 3563);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'editProjectPolicyLetterTest')
+data.setCell(26, 2, 'com.tyss.eletter.testscripts.ProjectPolicyLetter')
+data.setCell(26, 3, 3355);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'editITPolicyLetterTest')
+data.setCell(27, 2, 'com.tyss.eletter.testscripts.ITPolicyLetter')
+data.setCell(27, 3, 3209);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'editHRPolicyLetterTest')
+data.setCell(28, 2, 'com.tyss.eletter.testscripts.HRPolicyLetter')
+data.setCell(28, 3, 3201);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'editSalaryRevisionLetterTest')
+data.setCell(29, 2, 'com.tyss.eletter.testscripts.SalaryRevisionLetter')
+data.setCell(29, 3, 3044);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'skippingMandatoryFieldTest')
+data.setCell(30, 2, 'com.tyss.eletter.testscripts.ExitLetter')
+data.setCell(30, 3, 2542);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'skippingMandatoryFieldTest')
+data.setCell(31, 2, 'com.tyss.eletter.testscripts.ProjectPolicyLetter')
+data.setCell(31, 3, 2445);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'skippingMandatoryFieldTest')
+data.setCell(32, 2, 'com.tyss.eletter.testscripts.BDPolicyLetter')
+data.setCell(32, 3, 2435);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'skippingMandatoryFieldTest')
+data.setCell(33, 2, 'com.tyss.eletter.testscripts.DeliveryPolicyLetter')
+data.setCell(33, 3, 2338);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'skippingMandatoryField')
+data.setCell(34, 2, 'com.tyss.eletter.testscripts.OfferLetter')
+data.setCell(34, 3, 2320);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'skippingMandatoryFieldTest')
+data.setCell(35, 2, 'com.tyss.eletter.testscripts.HRPolicyLetter')
+data.setCell(35, 3, 2308);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'skippingMandatoryFieldTest')
+data.setCell(36, 2, 'com.tyss.eletter.testscripts.ConsultantOfferLetter')
+data.setCell(36, 3, 2219);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'skippingMandatoryFieldTest')
+data.setCell(37, 2, 'com.tyss.eletter.testscripts.InternshipLetter')
+data.setCell(37, 3, 2138);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'skippingMandatoryFieldTest')
+data.setCell(38, 2, 'com.tyss.eletter.testscripts.ITPolicyLetter')
+data.setCell(38, 3, 2036);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'skippingMandatoryFieldTest')
+data.setCell(39, 2, 'com.tyss.eletter.testscripts.SalaryRevisionLetter')
+data.setCell(39, 3, 1780);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editITPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">IT Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Consultant Offer Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Consultant Offer Letter by skipping Joined date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Offer letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exit letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Exit Letter by skipping Joined date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Internship Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Internship Letter by skipping Internship start date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Salary Revision Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Salary Revision Letter by skipping Salary Incremented from date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailDeliveryPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Delivery Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewHRPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HR Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of HR Policy Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editDeliveryPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Delivery Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailProjectPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NDA Project Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewExitLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exit letter form is displayed</span>
+                <span class="reporter-method-output">Exit Agreement page is displayed</span>
+                <span class="reporter-method-output">Preview of Exit Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewDeliveryPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Delivery Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of Delivery Policy Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailSalaryRevisionLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Salary Revision Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewBDPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">BD Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of BD Policy Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Offer letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Offer Letter by skipping Offer Validity --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">BD Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate BD Policy Letter by skipping joining date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editProjectPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NDA Project Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailITPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">IT Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editSalaryRevisionLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Salary Revision Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editHRPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HR Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editInternshipLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Internship Letter form is displayed</span>
+                <span class="reporter-method-output">Internship certificate page is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">IT Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate IT Policy Letter by skipping Joining date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Offer letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editExitLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exit letter form is displayed</span>
+                <span class="reporter-method-output">Exit Agreement page is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewSalaryRevisionLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Salary Revision Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of Salary Revision Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Offer letter form is displayed</span>
+                <span class="reporter-method-output">Preview of Offer letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailConsultantOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Consultant Offer Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HR Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate HR Policy Letter by skipping Joining date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NDA Project Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Project Policy Letter by skipping Joining date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewInternshipLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Internship Letter form is displayed</span>
+                <span class="reporter-method-output">Internship certificate page is displayed</span>
+                <span class="reporter-method-output">Preview of Internship Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewITPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">IT Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of IT Policy letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailHRPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HR Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewProjectPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">NDA Project Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of Project policy letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editConsultantOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Consultant Offer Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editBDPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">BD Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Modified details are updated --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailBDPolicyLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">BD Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">previewConsultantOfferLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Consultant Offer Letter form is displayed</span>
+                <span class="reporter-method-output">Preview of Consultant Offer Letter is displayed--> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">skippingMandatoryFieldTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Delivery Policy Letter form is displayed</span>
+                <span class="reporter-method-output">Cannot generate Delivery Policy Letter by skipping Joined date --> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendmailInternshipLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Internship Letter form is displayed</span>
+                <span class="reporter-method-output">Internship certificate page is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendMailExitLetterTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exit letter form is displayed</span>
+                <span class="reporter-method-output">Exit Agreement page is displayed</span>
+                <span class="reporter-method-output">Mail sent successfully ---> Test is PASS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.InternshipLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">5141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editInternshipLetterTest</span>
+                <span class="method-start">5727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">9658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">9884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewInternshipLetterTest</span>
+                <span class="method-start">10717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">18410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">18582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendmailInternshipLetterTest</span>
+                <span class="method-start">18882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">25037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">25194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">25499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">27638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">27821 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.ProjectPolicyLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">28503 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">33248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editProjectPolicyLetterTest</span>
+                <span class="method-start">33826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">37182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">37368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewProjectPolicyLetterTest</span>
+                <span class="method-start">37658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">43982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">44156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailProjectPolicyLetterTest</span>
+                <span class="method-start">44711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">50134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">50358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">51015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">53461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">53611 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.SalaryRevisionLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">54282 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">59310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editSalaryRevisionLetterTest</span>
+                <span class="method-start">59769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">62813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">62965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewSalaryRevisionLetterTest</span>
+                <span class="method-start">63258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">69233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">69345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailSalaryRevisionLetterTest</span>
+                <span class="method-start">69643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">74575 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">74720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">75005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">76786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">76917 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.BDPolicyLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">77621 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">82115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editBDPolicyLetterTest</span>
+                <span class="method-start">82552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">86668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">86814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewBDPolicyLetterTest</span>
+                <span class="method-start">87090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">93594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">93736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailBDPolicyLetterTest</span>
+                <span class="method-start">94027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">99702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">99833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">100094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">102530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">102670 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.ITPolicyLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">103349 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">108234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editITPolicyLetterTest</span>
+                <span class="method-start">108652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">111862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">111987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewITPolicyLetterTest</span>
+                <span class="method-start">112261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">118097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">118212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailITPolicyLetterTest</span>
+                <span class="method-start">118546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">124032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">124431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">124833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">126869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">127003 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.OfferLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">127679 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">132098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editOfferLetterTest</span>
+                <span class="method-start">132511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">136543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">136682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewOfferLetterTest</span>
+                <span class="method-start">136954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">142989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">143121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailOfferLetterTest</span>
+                <span class="method-start">143387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">148631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">148746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryField</span>
+                <span class="method-start">149006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">151327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">151465 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.ConsultantOfferLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">152142 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">156757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editConsultantOfferLetterTest</span>
+                <span class="method-start">157190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">160754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">160888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewConsultantOfferLetterTest</span>
+                <span class="method-start">161170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">167037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">167176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailConsultantOfferLetterTest</span>
+                <span class="method-start">167456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">172394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">172551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">172821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">175041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">175200 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.ExitLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">175865 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">180914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editExitLetterTest</span>
+                <span class="method-start">181660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">185465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">185593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewExitLetterTest</span>
+                <span class="method-start">185868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">192226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">192403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailExitLetterTest</span>
+                <span class="method-start">192730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">197982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">198141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">198579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">201122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">201261 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.DeliveryPolicyLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">201937 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">207055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editDeliveryPolicyLetterTest</span>
+                <span class="method-start">207589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">211388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">211521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewDeliveryPolicyLetterTest</span>
+                <span class="method-start">211794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">217974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">218114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailDeliveryPolicyLetterTest</span>
+                <span class="method-start">218386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">223373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">223521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">223780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">226118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">226255 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tyss.eletter.testscripts.HRPolicyLetter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBC</span>
+                <span class="method-start">226950 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">231983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editHRPolicyLetterTest</span>
+                <span class="method-start">232528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">235730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">235866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previewHRPolicyLetterTest</span>
+                <span class="method-start">236164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">242372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">242501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMailHRPolicyLetterTest</span>
+                <span class="method-start">242788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">248129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBM</span>
+                <span class="method-start">248279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">skippingMandatoryFieldTest</span>
+                <span class="method-start">248548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAM</span>
+                <span class="method-start">250857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">configAC</span>
+                <span class="method-start">250978 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

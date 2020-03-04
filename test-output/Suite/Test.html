@@ -1,0 +1,605 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 04 17:30:31 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>251 seconds (251676 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.BDPolicyLetter.editBDPolicyLetterTest()'><b>editBDPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.BDPolicyLetter<br/>
+<a href="#Output-1220292558" onClick='toggleBox("Output-1220292558", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220292558" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220292558">
+BD Policy Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.tyss.eletter.testscripts.BDPolicyLetter@6321e813</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ConsultantOfferLetter.editConsultantOfferLetterTest()'><b>editConsultantOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ConsultantOfferLetter<br/>
+<a href="#Output-638622177" onClick='toggleBox("Output-638622177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-638622177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-638622177">
+Consultant Offer Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.DeliveryPolicyLetter.editDeliveryPolicyLetterTest()'><b>editDeliveryPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.DeliveryPolicyLetter<br/>
+<a href="#Output-1348429073" onClick='toggleBox("Output-1348429073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1348429073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1348429073">
+Delivery Policy Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ExitLetter.editExitLetterTest()'><b>editExitLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ExitLetter<br/>
+<a href="#Output-565433174" onClick='toggleBox("Output-565433174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-565433174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-565433174">
+Exit letter form is displayed<br/>
+Exit Agreement page is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.ExitLetter@3b084709</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.HRPolicyLetter.editHRPolicyLetterTest()'><b>editHRPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.HRPolicyLetter<br/>
+<a href="#Output-1533714166" onClick='toggleBox("Output-1533714166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1533714166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1533714166">
+HR Policy Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ITPolicyLetter.editITPolicyLetterTest()'><b>editITPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ITPolicyLetter<br/>
+<a href="#Output-656311582" onClick='toggleBox("Output-656311582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-656311582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-656311582">
+IT Policy Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.ITPolicyLetter@79be0360</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.InternshipLetter.editInternshipLetterTest()'><b>editInternshipLetterTest</b><br>Test class: com.tyss.eletter.testscripts.InternshipLetter<br/>
+<a href="#Output-2084559714" onClick='toggleBox("Output-2084559714", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084559714" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084559714">
+Internship Letter form is displayed<br/>
+Internship certificate page is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.InternshipLetter@cd2dae5</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.OfferLetter.editOfferLetterTest()'><b>editOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.OfferLetter<br/>
+<a href="#Output-400996324" onClick='toggleBox("Output-400996324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-400996324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-400996324">
+Offer letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.tyss.eletter.testscripts.OfferLetter@22a67b4</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ProjectPolicyLetter.editProjectPolicyLetterTest()'><b>editProjectPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ProjectPolicyLetter<br/>
+<a href="#Output-827843776" onClick='toggleBox("Output-827843776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827843776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827843776">
+NDA Project Policy Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.SalaryRevisionLetter.editSalaryRevisionLetterTest()'><b>editSalaryRevisionLetterTest</b><br>Test class: com.tyss.eletter.testscripts.SalaryRevisionLetter<br/>
+<a href="#Output-220558713" onClick='toggleBox("Output-220558713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-220558713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-220558713">
+Salary Revision Letter form is displayed<br/>
+Modified details are updated --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.BDPolicyLetter.previewBDPolicyLetterTest()'><b>previewBDPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.BDPolicyLetter<br/>
+<a href="#Output-1217466562" onClick='toggleBox("Output-1217466562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1217466562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1217466562">
+BD Policy Letter form is displayed<br/>
+Preview of BD Policy Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.BDPolicyLetter@6321e813</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ConsultantOfferLetter.previewConsultantOfferLetterTest()'><b>previewConsultantOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ConsultantOfferLetter<br/>
+<a href="#Output-461803248" onClick='toggleBox("Output-461803248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-461803248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-461803248">
+Consultant Offer Letter form is displayed<br/>
+Preview of Consultant Offer Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.DeliveryPolicyLetter.previewDeliveryPolicyLetterTest()'><b>previewDeliveryPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.DeliveryPolicyLetter<br/>
+<a href="#Output-630085121" onClick='toggleBox("Output-630085121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-630085121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-630085121">
+Delivery Policy Letter form is displayed<br/>
+Preview of Delivery Policy Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ExitLetter.previewExitLetterTest()'><b>previewExitLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ExitLetter<br/>
+<a href="#Output-216376042" onClick='toggleBox("Output-216376042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-216376042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-216376042">
+Exit letter form is displayed<br/>
+Exit Agreement page is displayed<br/>
+Preview of Exit Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.ExitLetter@3b084709</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.HRPolicyLetter.previewHRPolicyLetterTest()'><b>previewHRPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.HRPolicyLetter<br/>
+<a href="#Output-1158959071" onClick='toggleBox("Output-1158959071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1158959071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1158959071">
+HR Policy Letter form is displayed<br/>
+Preview of HR Policy Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ITPolicyLetter.previewITPolicyLetterTest()'><b>previewITPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ITPolicyLetter<br/>
+<a href="#Output-1397558816" onClick='toggleBox("Output-1397558816", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1397558816" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1397558816">
+IT Policy Letter form is displayed<br/>
+Preview of IT Policy letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.ITPolicyLetter@79be0360</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.InternshipLetter.previewInternshipLetterTest()'><b>previewInternshipLetterTest</b><br>Test class: com.tyss.eletter.testscripts.InternshipLetter<br/>
+<a href="#Output-168957945" onClick='toggleBox("Output-168957945", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-168957945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-168957945">
+Internship Letter form is displayed<br/>
+Internship certificate page is displayed<br/>
+Preview of Internship Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.tyss.eletter.testscripts.InternshipLetter@cd2dae5</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.OfferLetter.previewOfferLetterTest()'><b>previewOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.OfferLetter<br/>
+<a href="#Output-710867897" onClick='toggleBox("Output-710867897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710867897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710867897">
+Offer letter form is displayed<br/>
+Preview of Offer letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.OfferLetter@22a67b4</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ProjectPolicyLetter.previewProjectPolicyLetterTest()'><b>previewProjectPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ProjectPolicyLetter<br/>
+<a href="#Output-2013853240" onClick='toggleBox("Output-2013853240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2013853240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2013853240">
+NDA Project Policy Letter form is displayed<br/>
+Preview of Project policy letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.SalaryRevisionLetter.previewSalaryRevisionLetterTest()'><b>previewSalaryRevisionLetterTest</b><br>Test class: com.tyss.eletter.testscripts.SalaryRevisionLetter<br/>
+<a href="#Output-1692036285" onClick='toggleBox("Output-1692036285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692036285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692036285">
+Salary Revision Letter form is displayed<br/>
+Preview of Salary Revision Letter is displayed--> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.BDPolicyLetter.sendMailBDPolicyLetterTest()'><b>sendMailBDPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.BDPolicyLetter<br/>
+<a href="#Output-1446188993" onClick='toggleBox("Output-1446188993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446188993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446188993">
+BD Policy Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.BDPolicyLetter@6321e813</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ConsultantOfferLetter.sendMailConsultantOfferLetterTest()'><b>sendMailConsultantOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ConsultantOfferLetter<br/>
+<a href="#Output-799312012" onClick='toggleBox("Output-799312012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799312012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799312012">
+Consultant Offer Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.DeliveryPolicyLetter.sendMailDeliveryPolicyLetterTest()'><b>sendMailDeliveryPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.DeliveryPolicyLetter<br/>
+<a href="#Output-1889288666" onClick='toggleBox("Output-1889288666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1889288666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1889288666">
+Delivery Policy Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ExitLetter.sendMailExitLetterTest()'><b>sendMailExitLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ExitLetter<br/>
+<a href="#Output-722299890" onClick='toggleBox("Output-722299890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722299890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722299890">
+Exit letter form is displayed<br/>
+Exit Agreement page is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.ExitLetter@3b084709</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.HRPolicyLetter.sendMailHRPolicyLetterTest()'><b>sendMailHRPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.HRPolicyLetter<br/>
+<a href="#Output-415801383" onClick='toggleBox("Output-415801383", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-415801383" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-415801383">
+HR Policy Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ITPolicyLetter.sendMailITPolicyLetterTest()'><b>sendMailITPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ITPolicyLetter<br/>
+<a href="#Output-37235503" onClick='toggleBox("Output-37235503", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37235503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37235503">
+IT Policy Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.ITPolicyLetter@79be0360</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.OfferLetter.sendMailOfferLetterTest()'><b>sendMailOfferLetterTest</b><br>Test class: com.tyss.eletter.testscripts.OfferLetter<br/>
+<a href="#Output-1708793022" onClick='toggleBox("Output-1708793022", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1708793022" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1708793022">
+Offer letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.OfferLetter@22a67b4</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ProjectPolicyLetter.sendMailProjectPolicyLetterTest()'><b>sendMailProjectPolicyLetterTest</b><br>Test class: com.tyss.eletter.testscripts.ProjectPolicyLetter<br/>
+<a href="#Output-1897732690" onClick='toggleBox("Output-1897732690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1897732690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1897732690">
+NDA Project Policy Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.SalaryRevisionLetter.sendMailSalaryRevisionLetterTest()'><b>sendMailSalaryRevisionLetterTest</b><br>Test class: com.tyss.eletter.testscripts.SalaryRevisionLetter<br/>
+<a href="#Output-111238003" onClick='toggleBox("Output-111238003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111238003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111238003">
+Salary Revision Letter form is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.InternshipLetter.sendmailInternshipLetterTest()'><b>sendmailInternshipLetterTest</b><br>Test class: com.tyss.eletter.testscripts.InternshipLetter<br/>
+<a href="#Output-305552520" onClick='toggleBox("Output-305552520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305552520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305552520">
+Internship Letter form is displayed<br/>
+Internship certificate page is displayed<br/>
+Mail sent successfully ---> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tyss.eletter.testscripts.InternshipLetter@cd2dae5</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.OfferLetter.skippingMandatoryField()'><b>skippingMandatoryField</b><br>Test class: com.tyss.eletter.testscripts.OfferLetter<br/>
+<a href="#Output-1750040348" onClick='toggleBox("Output-1750040348", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1750040348" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1750040348">
+Offer letter form is displayed<br/>
+Cannot generate Offer Letter by skipping Offer Validity --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.OfferLetter@22a67b4</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.InternshipLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.InternshipLetter<br/>
+<a href="#Output-516934601" onClick='toggleBox("Output-516934601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516934601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516934601">
+Internship Letter form is displayed<br/>
+Cannot generate Internship Letter by skipping Internship start date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.InternshipLetter@cd2dae5</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ProjectPolicyLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.ProjectPolicyLetter<br/>
+<a href="#Output-223696575" onClick='toggleBox("Output-223696575", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-223696575" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-223696575">
+NDA Project Policy Letter form is displayed<br/>
+Cannot generate Project Policy Letter by skipping Joining date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.SalaryRevisionLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.SalaryRevisionLetter<br/>
+<a href="#Output-102946788" onClick='toggleBox("Output-102946788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-102946788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-102946788">
+Salary Revision Letter form is displayed<br/>
+Cannot generate Salary Revision Letter by skipping Salary Incremented from date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.BDPolicyLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.BDPolicyLetter<br/>
+<a href="#Output-1769640623" onClick='toggleBox("Output-1769640623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1769640623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1769640623">
+BD Policy Letter form is displayed<br/>
+Cannot generate BD Policy Letter by skipping joining date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.BDPolicyLetter@6321e813</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ITPolicyLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.ITPolicyLetter<br/>
+<a href="#Output-1238989252" onClick='toggleBox("Output-1238989252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238989252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238989252">
+IT Policy Letter form is displayed<br/>
+Cannot generate IT Policy Letter by skipping Joining date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.ITPolicyLetter@79be0360</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ConsultantOfferLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.ConsultantOfferLetter<br/>
+<a href="#Output-1148172078" onClick='toggleBox("Output-1148172078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1148172078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1148172078">
+Consultant Offer Letter form is displayed<br/>
+Cannot generate Consultant Offer Letter by skipping Joined date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.ExitLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.ExitLetter<br/>
+<a href="#Output-1142767071" onClick='toggleBox("Output-1142767071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142767071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142767071">
+Exit letter form is displayed<br/>
+Cannot generate Exit Letter by skipping Joined date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.ExitLetter@3b084709</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.DeliveryPolicyLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.DeliveryPolicyLetter<br/>
+<a href="#Output-530498535" onClick='toggleBox("Output-530498535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-530498535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-530498535">
+Delivery Policy Letter form is displayed<br/>
+Cannot generate Delivery Policy Letter by skipping Joined date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b</td></tr>
+<tr>
+<td title='com.tyss.eletter.testscripts.HRPolicyLetter.skippingMandatoryFieldTest()'><b>skippingMandatoryFieldTest</b><br>Test class: com.tyss.eletter.testscripts.HRPolicyLetter<br/>
+<a href="#Output-626542001" onClick='toggleBox("Output-626542001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626542001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626542001">
+HR Policy Letter form is displayed<br/>
+Cannot generate HR Policy Letter by skipping Joining date --> Test is PASS<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c</td></tr>
+</table><p>
+</body>
+</html>

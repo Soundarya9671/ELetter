@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="40" passed="40">
+  <reporter-output>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship certificate page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship certificate page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Internship Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship certificate page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Internship Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Internship Letter by skipping Internship start date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[NDA Project Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[NDA Project Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Project policy letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[NDA Project Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[NDA Project Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Project Policy Letter by skipping Joining date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Salary Revision Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Salary Revision Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Salary Revision Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Salary Revision Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Salary Revision Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Salary Revision Letter by skipping Salary Incremented from date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[BD Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[BD Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of BD Policy Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[BD Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[BD Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate BD Policy Letter by skipping joining date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[IT Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[IT Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of IT Policy letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[IT Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[IT Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate IT Policy Letter by skipping Joining date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Offer letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Offer letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Offer letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Offer letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Offer letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Offer Letter by skipping Offer Validity --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Consultant Offer Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Consultant Offer Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Consultant Offer Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Consultant Offer Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Consultant Offer Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Consultant Offer Letter by skipping Joined date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit Agreement page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit Agreement page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Exit Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit Agreement page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Exit letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Exit Letter by skipping Joined date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Delivery Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Delivery Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of Delivery Policy Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Delivery Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Delivery Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate Delivery Policy Letter by skipping Joined date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[HR Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Modified details are updated --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[HR Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preview of HR Policy Letter is displayed--> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[HR Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mail sent successfully ---> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[HR Policy Letter form is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Cannot generate HR Policy Letter by skipping Joining date --> Test is PASS]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="251676" started-at="2020-03-04T17:30:31 IST" finished-at="2020-03-04T17:34:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="251676" started-at="2020-03-04T17:30:31 IST" finished-at="2020-03-04T17:34:42 IST">
+      <class name="com.tyss.eletter.testscripts.DeliveryPolicyLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configBC" is-config="true" duration-ms="5118" started-at="2020-03-04T17:33:53 IST" finished-at="2020-03-04T17:33:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configBM" is-config="true" duration-ms="533" started-at="2020-03-04T17:33:58 IST" finished-at="2020-03-04T17:33:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editDeliveryPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="editDeliveryPolicyLetterTest" duration-ms="3798" started-at="2020-03-04T17:33:58 IST" finished-at="2020-03-04T17:34:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Delivery Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editDeliveryPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configAM" is-config="true" duration-ms="132" started-at="2020-03-04T17:34:02 IST" finished-at="2020-03-04T17:34:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configBM" is-config="true" duration-ms="273" started-at="2020-03-04T17:34:02 IST" finished-at="2020-03-04T17:34:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewDeliveryPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="previewDeliveryPolicyLetterTest" duration-ms="6179" started-at="2020-03-04T17:34:02 IST" finished-at="2020-03-04T17:34:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Delivery Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Delivery Policy Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewDeliveryPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configAM" is-config="true" duration-ms="140" started-at="2020-03-04T17:34:09 IST" finished-at="2020-03-04T17:34:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configBM" is-config="true" duration-ms="272" started-at="2020-03-04T17:34:09 IST" finished-at="2020-03-04T17:34:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailDeliveryPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="sendMailDeliveryPolicyLetterTest" duration-ms="4987" started-at="2020-03-04T17:34:09 IST" finished-at="2020-03-04T17:34:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Delivery Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailDeliveryPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configAM" is-config="true" duration-ms="147" started-at="2020-03-04T17:34:14 IST" finished-at="2020-03-04T17:34:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configBM" is-config="true" duration-ms="259" started-at="2020-03-04T17:34:14 IST" finished-at="2020-03-04T17:34:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="skippingMandatoryFieldTest" duration-ms="2338" started-at="2020-03-04T17:34:14 IST" finished-at="2020-03-04T17:34:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Delivery Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Delivery Policy Letter by skipping Joined date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configAM" is-config="true" duration-ms="136" started-at="2020-03-04T17:34:17 IST" finished-at="2020-03-04T17:34:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.DeliveryPolicyLetter@3224f60b]" name="configAC" is-config="true" duration-ms="695" started-at="2020-03-04T17:34:17 IST" finished-at="2020-03-04T17:34:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.DeliveryPolicyLetter -->
+      <class name="com.tyss.eletter.testscripts.ExitLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configBC" is-config="true" duration-ms="5049" started-at="2020-03-04T17:33:26 IST" finished-at="2020-03-04T17:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configBM" is-config="true" duration-ms="746" started-at="2020-03-04T17:33:32 IST" finished-at="2020-03-04T17:33:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editExitLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="editExitLetterTest" duration-ms="3805" started-at="2020-03-04T17:33:32 IST" finished-at="2020-03-04T17:33:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Exit letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Exit Agreement page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editExitLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configAM" is-config="true" duration-ms="127" started-at="2020-03-04T17:33:36 IST" finished-at="2020-03-04T17:33:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configBM" is-config="true" duration-ms="275" started-at="2020-03-04T17:33:36 IST" finished-at="2020-03-04T17:33:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewExitLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="previewExitLetterTest" duration-ms="6358" started-at="2020-03-04T17:33:36 IST" finished-at="2020-03-04T17:33:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Exit letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Exit Agreement page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Exit Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewExitLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configAM" is-config="true" duration-ms="176" started-at="2020-03-04T17:33:43 IST" finished-at="2020-03-04T17:33:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configBM" is-config="true" duration-ms="327" started-at="2020-03-04T17:33:43 IST" finished-at="2020-03-04T17:33:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailExitLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="sendMailExitLetterTest" duration-ms="5252" started-at="2020-03-04T17:33:43 IST" finished-at="2020-03-04T17:33:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Exit letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Exit Agreement page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailExitLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configAM" is-config="true" duration-ms="158" started-at="2020-03-04T17:33:49 IST" finished-at="2020-03-04T17:33:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configBM" is-config="true" duration-ms="438" started-at="2020-03-04T17:33:49 IST" finished-at="2020-03-04T17:33:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="skippingMandatoryFieldTest" duration-ms="2542" started-at="2020-03-04T17:33:49 IST" finished-at="2020-03-04T17:33:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Exit letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Exit Letter by skipping Joined date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configAM" is-config="true" duration-ms="139" started-at="2020-03-04T17:33:52 IST" finished-at="2020-03-04T17:33:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.ExitLetter@3b084709]" name="configAC" is-config="true" duration-ms="675" started-at="2020-03-04T17:33:52 IST" finished-at="2020-03-04T17:33:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.ExitLetter -->
+      <class name="com.tyss.eletter.testscripts.ITPolicyLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configBC" is-config="true" duration-ms="4884" started-at="2020-03-04T17:32:14 IST" finished-at="2020-03-04T17:32:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configBM" is-config="true" duration-ms="418" started-at="2020-03-04T17:32:19 IST" finished-at="2020-03-04T17:32:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editITPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="editITPolicyLetterTest" duration-ms="3209" started-at="2020-03-04T17:32:19 IST" finished-at="2020-03-04T17:32:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IT Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editITPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configAM" is-config="true" duration-ms="124" started-at="2020-03-04T17:32:22 IST" finished-at="2020-03-04T17:32:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configBM" is-config="true" duration-ms="274" started-at="2020-03-04T17:32:23 IST" finished-at="2020-03-04T17:32:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewITPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="previewITPolicyLetterTest" duration-ms="5835" started-at="2020-03-04T17:32:23 IST" finished-at="2020-03-04T17:32:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IT Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of IT Policy letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewITPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configAM" is-config="true" duration-ms="114" started-at="2020-03-04T17:32:29 IST" finished-at="2020-03-04T17:32:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configBM" is-config="true" duration-ms="334" started-at="2020-03-04T17:32:29 IST" finished-at="2020-03-04T17:32:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailITPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="sendMailITPolicyLetterTest" duration-ms="5485" started-at="2020-03-04T17:32:29 IST" finished-at="2020-03-04T17:32:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IT Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailITPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configAM" is-config="true" duration-ms="398" started-at="2020-03-04T17:32:35 IST" finished-at="2020-03-04T17:32:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configBM" is-config="true" duration-ms="402" started-at="2020-03-04T17:32:35 IST" finished-at="2020-03-04T17:32:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="skippingMandatoryFieldTest" duration-ms="2036" started-at="2020-03-04T17:32:35 IST" finished-at="2020-03-04T17:32:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[IT Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate IT Policy Letter by skipping Joining date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configAM" is-config="true" duration-ms="134" started-at="2020-03-04T17:32:37 IST" finished-at="2020-03-04T17:32:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.ITPolicyLetter@79be0360]" name="configAC" is-config="true" duration-ms="676" started-at="2020-03-04T17:32:38 IST" finished-at="2020-03-04T17:32:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.ITPolicyLetter -->
+      <class name="com.tyss.eletter.testscripts.InternshipLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configBC" is-config="true" duration-ms="5122" started-at="2020-03-04T17:30:31 IST" finished-at="2020-03-04T17:30:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configBM" is-config="true" duration-ms="583" started-at="2020-03-04T17:30:36 IST" finished-at="2020-03-04T17:30:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editInternshipLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="editInternshipLetterTest" duration-ms="3928" started-at="2020-03-04T17:30:36 IST" finished-at="2020-03-04T17:30:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Internship Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Internship certificate page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editInternshipLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configAM" is-config="true" duration-ms="225" started-at="2020-03-04T17:30:40 IST" finished-at="2020-03-04T17:30:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configBM" is-config="true" duration-ms="833" started-at="2020-03-04T17:30:40 IST" finished-at="2020-03-04T17:30:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewInternshipLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="previewInternshipLetterTest" duration-ms="7691" started-at="2020-03-04T17:30:41 IST" finished-at="2020-03-04T17:30:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Internship Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Internship certificate page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Internship Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewInternshipLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configAM" is-config="true" duration-ms="172" started-at="2020-03-04T17:30:49 IST" finished-at="2020-03-04T17:30:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configBM" is-config="true" duration-ms="300" started-at="2020-03-04T17:30:49 IST" finished-at="2020-03-04T17:30:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendmailInternshipLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="sendmailInternshipLetterTest" duration-ms="6153" started-at="2020-03-04T17:30:49 IST" finished-at="2020-03-04T17:30:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Internship Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Internship certificate page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendmailInternshipLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configAM" is-config="true" duration-ms="156" started-at="2020-03-04T17:30:56 IST" finished-at="2020-03-04T17:30:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configBM" is-config="true" duration-ms="305" started-at="2020-03-04T17:30:56 IST" finished-at="2020-03-04T17:30:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="skippingMandatoryFieldTest" duration-ms="2138" started-at="2020-03-04T17:30:56 IST" finished-at="2020-03-04T17:30:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Internship Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Internship Letter by skipping Internship start date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configAM" is-config="true" duration-ms="181" started-at="2020-03-04T17:30:58 IST" finished-at="2020-03-04T17:30:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.InternshipLetter@cd2dae5]" name="configAC" is-config="true" duration-ms="679" started-at="2020-03-04T17:30:58 IST" finished-at="2020-03-04T17:30:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.InternshipLetter -->
+      <class name="com.tyss.eletter.testscripts.ProjectPolicyLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configBC" is-config="true" duration-ms="4745" started-at="2020-03-04T17:30:59 IST" finished-at="2020-03-04T17:31:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configBM" is-config="true" duration-ms="578" started-at="2020-03-04T17:31:04 IST" finished-at="2020-03-04T17:31:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editProjectPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="editProjectPolicyLetterTest" duration-ms="3355" started-at="2020-03-04T17:31:04 IST" finished-at="2020-03-04T17:31:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[NDA Project Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProjectPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configAM" is-config="true" duration-ms="185" started-at="2020-03-04T17:31:08 IST" finished-at="2020-03-04T17:31:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configBM" is-config="true" duration-ms="290" started-at="2020-03-04T17:31:08 IST" finished-at="2020-03-04T17:31:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewProjectPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="previewProjectPolicyLetterTest" duration-ms="6323" started-at="2020-03-04T17:31:08 IST" finished-at="2020-03-04T17:31:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[NDA Project Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Project policy letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewProjectPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configAM" is-config="true" duration-ms="174" started-at="2020-03-04T17:31:15 IST" finished-at="2020-03-04T17:31:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configBM" is-config="true" duration-ms="555" started-at="2020-03-04T17:31:15 IST" finished-at="2020-03-04T17:31:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailProjectPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="sendMailProjectPolicyLetterTest" duration-ms="5423" started-at="2020-03-04T17:31:15 IST" finished-at="2020-03-04T17:31:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[NDA Project Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailProjectPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configAM" is-config="true" duration-ms="224" started-at="2020-03-04T17:31:21 IST" finished-at="2020-03-04T17:31:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configBM" is-config="true" duration-ms="657" started-at="2020-03-04T17:31:21 IST" finished-at="2020-03-04T17:31:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="skippingMandatoryFieldTest" duration-ms="2445" started-at="2020-03-04T17:31:22 IST" finished-at="2020-03-04T17:31:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[NDA Project Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Project Policy Letter by skipping Joining date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configAM" is-config="true" duration-ms="149" started-at="2020-03-04T17:31:24 IST" finished-at="2020-03-04T17:31:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.ProjectPolicyLetter@3a883ce7]" name="configAC" is-config="true" duration-ms="670" started-at="2020-03-04T17:31:24 IST" finished-at="2020-03-04T17:31:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.ProjectPolicyLetter -->
+      <class name="com.tyss.eletter.testscripts.OfferLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configBC" is-config="true" duration-ms="4419" started-at="2020-03-04T17:32:38 IST" finished-at="2020-03-04T17:32:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configBM" is-config="true" duration-ms="413" started-at="2020-03-04T17:32:43 IST" finished-at="2020-03-04T17:32:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="editOfferLetterTest" duration-ms="4031" started-at="2020-03-04T17:32:43 IST" finished-at="2020-03-04T17:32:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Offer letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configAM" is-config="true" duration-ms="139" started-at="2020-03-04T17:32:47 IST" finished-at="2020-03-04T17:32:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configBM" is-config="true" duration-ms="272" started-at="2020-03-04T17:32:47 IST" finished-at="2020-03-04T17:32:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="previewOfferLetterTest" duration-ms="6034" started-at="2020-03-04T17:32:48 IST" finished-at="2020-03-04T17:32:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Offer letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Offer letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configAM" is-config="true" duration-ms="131" started-at="2020-03-04T17:32:54 IST" finished-at="2020-03-04T17:32:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configBM" is-config="true" duration-ms="266" started-at="2020-03-04T17:32:54 IST" finished-at="2020-03-04T17:32:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="sendMailOfferLetterTest" duration-ms="5243" started-at="2020-03-04T17:32:54 IST" finished-at="2020-03-04T17:32:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Offer letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configAM" is-config="true" duration-ms="115" started-at="2020-03-04T17:32:59 IST" finished-at="2020-03-04T17:32:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configBM" is-config="true" duration-ms="260" started-at="2020-03-04T17:32:59 IST" finished-at="2020-03-04T17:33:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryField()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="skippingMandatoryField" duration-ms="2320" started-at="2020-03-04T17:33:00 IST" finished-at="2020-03-04T17:33:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Offer letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Offer Letter by skipping Offer Validity --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryField -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configAM" is-config="true" duration-ms="137" started-at="2020-03-04T17:33:02 IST" finished-at="2020-03-04T17:33:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.OfferLetter@22a67b4]" name="configAC" is-config="true" duration-ms="676" started-at="2020-03-04T17:33:02 IST" finished-at="2020-03-04T17:33:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.OfferLetter -->
+      <class name="com.tyss.eletter.testscripts.BDPolicyLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configBC" is-config="true" duration-ms="4493" started-at="2020-03-04T17:31:48 IST" finished-at="2020-03-04T17:31:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configBM" is-config="true" duration-ms="437" started-at="2020-03-04T17:31:53 IST" finished-at="2020-03-04T17:31:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editBDPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="editBDPolicyLetterTest" duration-ms="4115" started-at="2020-03-04T17:31:53 IST" finished-at="2020-03-04T17:31:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BD Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editBDPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configAM" is-config="true" duration-ms="145" started-at="2020-03-04T17:31:57 IST" finished-at="2020-03-04T17:31:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configBM" is-config="true" duration-ms="276" started-at="2020-03-04T17:31:57 IST" finished-at="2020-03-04T17:31:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewBDPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="previewBDPolicyLetterTest" duration-ms="6503" started-at="2020-03-04T17:31:58 IST" finished-at="2020-03-04T17:32:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BD Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of BD Policy Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewBDPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configAM" is-config="true" duration-ms="141" started-at="2020-03-04T17:32:04 IST" finished-at="2020-03-04T17:32:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configBM" is-config="true" duration-ms="291" started-at="2020-03-04T17:32:04 IST" finished-at="2020-03-04T17:32:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailBDPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="sendMailBDPolicyLetterTest" duration-ms="5674" started-at="2020-03-04T17:32:05 IST" finished-at="2020-03-04T17:32:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BD Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailBDPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configAM" is-config="true" duration-ms="131" started-at="2020-03-04T17:32:10 IST" finished-at="2020-03-04T17:32:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configBM" is-config="true" duration-ms="261" started-at="2020-03-04T17:32:10 IST" finished-at="2020-03-04T17:32:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="skippingMandatoryFieldTest" duration-ms="2435" started-at="2020-03-04T17:32:11 IST" finished-at="2020-03-04T17:32:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[BD Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate BD Policy Letter by skipping joining date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configAM" is-config="true" duration-ms="140" started-at="2020-03-04T17:32:13 IST" finished-at="2020-03-04T17:32:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.BDPolicyLetter@6321e813]" name="configAC" is-config="true" duration-ms="679" started-at="2020-03-04T17:32:13 IST" finished-at="2020-03-04T17:32:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.BDPolicyLetter -->
+      <class name="com.tyss.eletter.testscripts.SalaryRevisionLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configBC" is-config="true" duration-ms="5028" started-at="2020-03-04T17:31:25 IST" finished-at="2020-03-04T17:31:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configBM" is-config="true" duration-ms="459" started-at="2020-03-04T17:31:30 IST" finished-at="2020-03-04T17:31:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editSalaryRevisionLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="editSalaryRevisionLetterTest" duration-ms="3044" started-at="2020-03-04T17:31:30 IST" finished-at="2020-03-04T17:31:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Salary Revision Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editSalaryRevisionLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configAM" is-config="true" duration-ms="151" started-at="2020-03-04T17:31:33 IST" finished-at="2020-03-04T17:31:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configBM" is-config="true" duration-ms="293" started-at="2020-03-04T17:31:34 IST" finished-at="2020-03-04T17:31:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewSalaryRevisionLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="previewSalaryRevisionLetterTest" duration-ms="5974" started-at="2020-03-04T17:31:34 IST" finished-at="2020-03-04T17:31:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Salary Revision Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Salary Revision Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewSalaryRevisionLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configAM" is-config="true" duration-ms="111" started-at="2020-03-04T17:31:40 IST" finished-at="2020-03-04T17:31:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configBM" is-config="true" duration-ms="298" started-at="2020-03-04T17:31:40 IST" finished-at="2020-03-04T17:31:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailSalaryRevisionLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="sendMailSalaryRevisionLetterTest" duration-ms="4931" started-at="2020-03-04T17:31:40 IST" finished-at="2020-03-04T17:31:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Salary Revision Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailSalaryRevisionLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configAM" is-config="true" duration-ms="144" started-at="2020-03-04T17:31:45 IST" finished-at="2020-03-04T17:31:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configBM" is-config="true" duration-ms="285" started-at="2020-03-04T17:31:45 IST" finished-at="2020-03-04T17:31:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="skippingMandatoryFieldTest" duration-ms="1780" started-at="2020-03-04T17:31:46 IST" finished-at="2020-03-04T17:31:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Salary Revision Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Salary Revision Letter by skipping Salary Incremented from date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configAM" is-config="true" duration-ms="131" started-at="2020-03-04T17:31:47 IST" finished-at="2020-03-04T17:31:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.SalaryRevisionLetter@4973813a]" name="configAC" is-config="true" duration-ms="703" started-at="2020-03-04T17:31:48 IST" finished-at="2020-03-04T17:31:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.SalaryRevisionLetter -->
+      <class name="com.tyss.eletter.testscripts.ConsultantOfferLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configBC" is-config="true" duration-ms="4615" started-at="2020-03-04T17:33:03 IST" finished-at="2020-03-04T17:33:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configBM" is-config="true" duration-ms="432" started-at="2020-03-04T17:33:07 IST" finished-at="2020-03-04T17:33:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editConsultantOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="editConsultantOfferLetterTest" duration-ms="3563" started-at="2020-03-04T17:33:08 IST" finished-at="2020-03-04T17:33:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Consultant Offer Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editConsultantOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configAM" is-config="true" duration-ms="133" started-at="2020-03-04T17:33:11 IST" finished-at="2020-03-04T17:33:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configBM" is-config="true" duration-ms="282" started-at="2020-03-04T17:33:11 IST" finished-at="2020-03-04T17:33:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewConsultantOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="previewConsultantOfferLetterTest" duration-ms="5866" started-at="2020-03-04T17:33:12 IST" finished-at="2020-03-04T17:33:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Consultant Offer Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of Consultant Offer Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewConsultantOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configAM" is-config="true" duration-ms="138" started-at="2020-03-04T17:33:18 IST" finished-at="2020-03-04T17:33:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configBM" is-config="true" duration-ms="280" started-at="2020-03-04T17:33:18 IST" finished-at="2020-03-04T17:33:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailConsultantOfferLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="sendMailConsultantOfferLetterTest" duration-ms="4937" started-at="2020-03-04T17:33:18 IST" finished-at="2020-03-04T17:33:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Consultant Offer Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailConsultantOfferLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configAM" is-config="true" duration-ms="156" started-at="2020-03-04T17:33:23 IST" finished-at="2020-03-04T17:33:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configBM" is-config="true" duration-ms="270" started-at="2020-03-04T17:33:23 IST" finished-at="2020-03-04T17:33:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="skippingMandatoryFieldTest" duration-ms="2219" started-at="2020-03-04T17:33:23 IST" finished-at="2020-03-04T17:33:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Consultant Offer Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate Consultant Offer Letter by skipping Joined date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configAM" is-config="true" duration-ms="159" started-at="2020-03-04T17:33:26 IST" finished-at="2020-03-04T17:33:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.ConsultantOfferLetter@57855c9a]" name="configAC" is-config="true" duration-ms="665" started-at="2020-03-04T17:33:26 IST" finished-at="2020-03-04T17:33:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.ConsultantOfferLetter -->
+      <class name="com.tyss.eletter.testscripts.HRPolicyLetter">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configBC" is-config="true" duration-ms="5033" started-at="2020-03-04T17:34:18 IST" finished-at="2020-03-04T17:34:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configBM" is-config="true" duration-ms="545" started-at="2020-03-04T17:34:23 IST" finished-at="2020-03-04T17:34:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="editHRPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="editHRPolicyLetterTest" duration-ms="3201" started-at="2020-03-04T17:34:23 IST" finished-at="2020-03-04T17:34:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HR Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Modified details are updated --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editHRPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configAM" is-config="true" duration-ms="136" started-at="2020-03-04T17:34:26 IST" finished-at="2020-03-04T17:34:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configBM" is-config="true" duration-ms="297" started-at="2020-03-04T17:34:26 IST" finished-at="2020-03-04T17:34:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="previewHRPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="previewHRPolicyLetterTest" duration-ms="6207" started-at="2020-03-04T17:34:27 IST" finished-at="2020-03-04T17:34:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HR Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preview of HR Policy Letter is displayed--> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previewHRPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configAM" is-config="true" duration-ms="128" started-at="2020-03-04T17:34:33 IST" finished-at="2020-03-04T17:34:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configBM" is-config="true" duration-ms="287" started-at="2020-03-04T17:34:33 IST" finished-at="2020-03-04T17:34:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="sendMailHRPolicyLetterTest()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="sendMailHRPolicyLetterTest" duration-ms="5341" started-at="2020-03-04T17:34:33 IST" finished-at="2020-03-04T17:34:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HR Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mail sent successfully ---> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMailHRPolicyLetterTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configAM" is-config="true" duration-ms="149" started-at="2020-03-04T17:34:39 IST" finished-at="2020-03-04T17:34:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configBM" is-config="true" duration-ms="269" started-at="2020-03-04T17:34:39 IST" finished-at="2020-03-04T17:34:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="skippingMandatoryFieldTest()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="skippingMandatoryFieldTest" duration-ms="2308" started-at="2020-03-04T17:34:39 IST" finished-at="2020-03-04T17:34:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HR Policy Letter form is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Cannot generate HR Policy Letter by skipping Joining date --> Test is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skippingMandatoryFieldTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configAM" is-config="true" duration-ms="120" started-at="2020-03-04T17:34:41 IST" finished-at="2020-03-04T17:34:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.tyss.eletter.testscripts.HRPolicyLetter@63e2203c]" name="configAC" is-config="true" duration-ms="680" started-at="2020-03-04T17:34:42 IST" finished-at="2020-03-04T17:34:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.tyss.eletter.testscripts.HRPolicyLetter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

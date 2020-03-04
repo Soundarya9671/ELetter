@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tyss.eletter.projectpolicyletter.ProjectPolicyLetter">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="previewProjectPolicyLetterTest"/>
+          <include name="configBC"/>
+          <include name="skippingMandatoryFieldTest"/>
+          <include name="editProjectPolicyLetterTest"/>
+          <include name="configAC"/>
+          <include name="sendMailProjectPolicyLetterTest"/>
+        </methods>
+      </class> <!-- com.tyss.eletter.projectpolicyletter.ProjectPolicyLetter -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
